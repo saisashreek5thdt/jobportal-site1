@@ -3,6 +3,7 @@ import abtIMG from "../../assets/images/about-image-1.jpg";
 import abtIMG2 from "../../assets/images/about-image-2.jpg";
 import serviceIcon1 from "../../assets/images/icon-about-service-1.svg";
 import serviceIcon2 from "../../assets/images/icon-about-service-2.svg";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -55,7 +56,7 @@ export default function About() {
                 {/* About Image Start */}
                 <div className="about-image">
                   <figure className="image-anime reveal">
-                    <img src={abtIMG2} alt="" />
+                    <img src={abtIMG2} alt="about services picture" />
                   </figure>
                 </div>
                 {/* About Image End */}
@@ -121,9 +122,9 @@ export default function About() {
                   className="about-content-btn wow fadeInUp"
                   data-wow-delay="0.6s"
                 >
-                  <a href="about.html" className="btn-default">
+                  <Link to="/" className="btn-default">
                     more about us
-                  </a>
+                  </Link>
                 </div>
                 {/* About Content Button End */}
               </div>

@@ -1,4 +1,14 @@
-import { Topbar, Header, HeroSection, HeroCTA, About } from "./Components/index";
+import {
+  Topbar,
+  Header,
+  HeroSection,
+  HeroCTA,
+  About,
+  Footer,
+  OurServices,
+  OurFeatures,
+  OurGoals,
+} from "./Components/index";
 
 export default function Home() {
   return (
@@ -18,6 +28,18 @@ export default function Home() {
       {/* About Section Start */}
       <About />
       {/* About Section End */}
+      {/* Our Services Start */}
+      <OurServices />
+      {/* Our Services End */}
+      {/* Our Features Start */}
+      <OurFeatures />
+      {/* Our Features End */}
+      {/* Our Goals Start */}
+      <OurGoals />
+      {/* Our Goals End */}
+      {/* Footer Start */}
+      <Footer />
+      {/* Footer End */}
     </>
   );
 }
