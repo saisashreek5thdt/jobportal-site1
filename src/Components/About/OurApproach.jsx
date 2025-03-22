@@ -3,6 +3,7 @@ import vision from "../../assets/images/icon-our-vision.svg";
 import approachIMG1 from "../../assets/images/approach-image-1.jpg";
 import approachIMG2 from "../../assets/images/approach-image-2.jpg";
 import approachIMG3 from "../../assets/images/contact-now-circle.png";
+import { Link } from "react-router-dom";
 
 export default function OurApproach() {
   return (
@@ -92,9 +93,9 @@ export default function OurApproach() {
                   </figure>
 
                   <div className="contact-now-circle">
-                    <a href="contact.html">
+                    <Link to="/about">
                       <img src={approachIMG3} alt="" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* Approach Image 2 End */}
