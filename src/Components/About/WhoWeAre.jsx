@@ -4,6 +4,7 @@ import whoIMG3 from "../../assets/images/icon-project-complete-2.svg";
 import whoIMG4 from "../../assets/images/icon-trusted-expert-body-1.svg";
 import whoIMG5 from "../../assets/images/icon-trusted-expert-body-2.svg";
 import phone from "../../assets/images/icon-phone-accent.svg";
+import { Link } from "react-router-dom";
 
 export default function WhoWeAre() {
   return (
@@ -128,9 +129,9 @@ export default function WhoWeAre() {
                 >
                   {/* Goals Content Button Start */}
                   <div className="trusted-expert-btn">
-                    <a href="projects.html" className="btn-default">
+                    <Link to="/about" className="btn-default">
                       know more
-                    </a>
+                    </Link>
                   </div>
                   {/* Goals Content Button End */}
 
@@ -142,7 +143,7 @@ export default function WhoWeAre() {
                     <div className="contact-now-box-content">
                       <span>Call Us 24/7</span>
                       <p>
-                        <a href="tel:123456789">+ 0 (123) 456 789</a>
+                        <Link to="tel:123456789">+ 0 (123) 456 789</Link>
                       </p>
                     </div>
                   </div>
