@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export default function About() {
   return (
     <>
-      <div className="about-us">
+      <div id="about" className="about-us">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -122,7 +122,7 @@ export default function About() {
                   className="about-content-btn wow fadeInUp"
                   data-wow-delay="0.6s"
                 >
-                  <Link to="/" className="btn-default">
+                  <Link to="/about" className="btn-default">
                     more about us
                   </Link>
                 </div>
