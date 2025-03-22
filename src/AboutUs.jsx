@@ -1,4 +1,4 @@
-import { Topbar, Header, Footer, PageHeader, AboutContent, OurApproach, WhoWeAre } from "./Components/index";
+import { Topbar, Header, Footer, PageHeader, AboutContent, OurApproach, WhoWeAre, WhyChooseUs } from "./Components/index";
 
 export default function AboutUs() {
   return (
@@ -22,6 +22,9 @@ export default function AboutUs() {
       {/* Who We Are Start */}
       <WhoWeAre />
       {/* Who We Are End */}
+      {/* Why Choose Us Start */}
+      <WhyChooseUs />
+      {/* Why Choose Us End */}
       {/* About Page Content End */}
       {/* Footer Start */}
       <Footer />
