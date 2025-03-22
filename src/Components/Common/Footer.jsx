@@ -6,7 +6,7 @@ import phone from "../../assets/images/icon-phone-accent.svg";
 export default function Footer() {
   return (
     <>
-      <footer className="main-footer bg-section dark-section">
+      <footer id="footer" className="main-footer bg-section dark-section">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-12">
