@@ -11,3 +11,5 @@ export { default as OurFeatures } from "./Home/OurFeatures";
 export { default as OurGoals } from "./Home/OurGoals";
 
 export { default as AboutContent } from "./About/AboutContent";
+export { default as OurApproach } from "./About/OurApproach";
+export { default as WhoWeAre } from "./About/WhoWeAre";
