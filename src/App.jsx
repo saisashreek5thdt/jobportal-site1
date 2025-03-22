@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Home";
+import AboutUs from "./AboutUs";
 
 export default function App() {
   useEffect(() => {
@@ -66,6 +67,10 @@ export default function App() {
       path: "/",
       element: <Home />,
     },
+    {
+      path: "/about",
+      element: <AboutUs />
+    }
   ]);
 
   return (
